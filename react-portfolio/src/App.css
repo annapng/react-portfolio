@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+.app {
+    position: relative;
+    min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    background: purple;
+    height: 15%;
+    width: 110%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header h1 {
+    
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+#signature {
+    position: absolute;
+    left: 0;
+    height: 120%;
+    padding: 5px;
+}
+
+
+.footer {
+    background: purple;
+    position: absolute;
+    height: 5vh;
+    width: 110%;
+    bottom: 0;
+}
+
+
+#content {
+    top: 17%;
+    color: white;
+    font-size: 1.3rem;
+    position: absolute;
+}
+
+#contentBox {
+    padding: 20px;
+    display: flex;
+}
+
+h1 {
+    font-size: 2rem;
+
+}
+
+#words {
+ flex: 2;
+ padding: 30px;
+
+}
+
+#portrait {
+ 
+    flex: 1;
+}
+
+.portBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#portImg {
+    flex: 0 32%;
+    height: auto;
+    width: 32%;
+    overflow: hidden;
+    margin-bottom: 2%;
+    filter: grayscale(100%);
+}
+
+#portImg:hover {
+    transition: all .6s ease;
+    filter: grayscale(0%);
+}
+
+
+
+@media (max-width: 600px) {
+    #contentBox {
+        flex-direction: column;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
