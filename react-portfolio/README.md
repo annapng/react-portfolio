@@ -39,3 +39,8 @@ A tentative version of my portfolio, to be updated. Built in React.
 - [x] THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 - [x] WHEN I view the footer
 - [x] THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+## Links
+
+- GitHub Repo: https://github.com/annapng/react-portfolio
+- Deployed App: https://annapng.github.io/react-portfolio/
