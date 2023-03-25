@@ -4,7 +4,7 @@ import portrait from '../assets/IBM PS1 CRT Monitor2.png';
 
 function AboutMe() {
     return (
-        <div>
+        <div id="aboutMe">
             <h1>About Me</h1>
             <div id="contentBox">
             <img src={portrait} id="portrait"/>

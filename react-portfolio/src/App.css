@@ -27,6 +27,20 @@
     padding: 5px;
 }
 
+.navBarDiv {
+    float: right;
+    top: 20px;
+    right: 150px;
+    position: absolute;
+
+}
+
+#navBar {
+    position: relative;
+    height: 50px;
+    width: auto;
+    padding: 15px;
+}
 
 .footer {
     background: purple;
@@ -34,8 +48,18 @@
     height: 5vh;
     width: 110%;
     bottom: 0;
+    text-align: center;
+    font-size: 1rem;
+
 }
 
+a:link {
+    color: lightgrey;
+  }
+  
+  a:visited {
+    color: lightslategrey;
+  }
 
 #content {
     top: 17%;
@@ -74,10 +98,12 @@ h1 {
 #portImg {
     flex: 0 32%;
     height: auto;
-    width: 32%;
+    width: 100%;
+
     overflow: hidden;
     margin-bottom: 2%;
     filter: grayscale(100%);
+    white-space: nowrap;
 }
 
 #portImg:hover {
@@ -90,5 +116,15 @@ h1 {
 @media (max-width: 600px) {
     #contentBox {
         flex-direction: column;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .navBarDiv {
+        display: none;
+    }
+
+    #navBar {
+        display: none;
     }
   }

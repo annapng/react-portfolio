@@ -10,20 +10,20 @@ import weather from '../assets/portfolio screenshots/Weather.png';
 function Portfolio() {
 
     return (
-    <div>
+    <div id="portfolio">
         <h1>Portfolio</h1>
         <div>
             The following are just some of the "finished projects" that I've worked on, but as we all know, a project is never truly finished!!
         </div>
         <div id="contentBox">
             <div class="portBox">
-                <img src={dogAdopt} id="portImg" />
-                <img src={recSite} id="portImg" />
-                <img src={empTrack} id="portImg" />
-                <img src={passGen} id="portImg" />
-                <img src={noteTake} id="portImg" />
-                <img src={weather} id="portImg" />
 
+            <div id="portImg"><a href="https://github.com/annapng/dog-adoption"><img src={dogAdopt} id="portImg" /></a></div>
+                <div id="portImg"><a href="https://github.com/annapng/Project1"><img src={recSite} id="portImg" /></a></div>
+                <div id="portImg"><a href="https://github.com/annapng/Employee-Tracker"><img src={empTrack} id="portImg" /></a></div>
+                <div id="portImg"><a href="https://github.com/annapng/passwordGen"><img src={passGen} id="portImg" /></a></div>
+                <div id="portImg"><a href="https://github.com/annapng/PWA-App"><img src={noteTake} id="portImg" /></a></div>
+                <div id="portImg"><a href="https://github.com/annapng/Weather-App"><img src={weather} id="portImg" /></a></div>
 
 
             </div>
