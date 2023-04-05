@@ -6,7 +6,7 @@ import passGen from '../assets/portfolio screenshots/Password Gen.png';
 import recSite from '../assets/portfolio screenshots/Recipe Site.png';
 import noteTake from '../assets/portfolio screenshots/Note Taker.png';
 import weather from '../assets/portfolio screenshots/Weather.png';
-import Game from '../assets/portfolio screenshots/Game.JPG'
+import game from '../assets/portfolio screenshots/Game.JPG'
 
 function Portfolio() {
 
@@ -19,7 +19,7 @@ function Portfolio() {
         <div id="contentBox">
             <div class="portBox">
 
-            <div id="portImg"><a href="https://github.com/annapng/Weather-App"><img src={Game} id="portImg" /></a></div>
+            <div id="portImg"><a href="https://github.com/annapng/blackjack"><img src={game} id="portImg" /></a></div>
 
 
             <div id="portImg"><a href="https://github.com/annapng/dog-adoption"><img src={dogAdopt} id="portImg" /></a></div>
